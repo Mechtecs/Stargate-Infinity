@@ -1,0 +1,668 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\stargate_infinity\materials
+Loading d:\stargate-infinity\sgc.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 singleplayer\stargate_infinity\gameinfo.txt
+Patching WVT material: maps/sgc/nature/blenddirtgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\stargate-infinity\sgc.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/stargate*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/stargate*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (242661 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 615 texinfos to 159
+Reduced 37 texdatas to 36 (979 bytes to 953)
+Writing d:\stargate-infinity\sgc.bsp
+1 second elapsed
+
+
+
+4 threads
+reading d:\stargate-infinity\sgc.bsp
+reading d:\stargate-infinity\sgc.prt
+ 260 portalclusters
+ 671 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 89 visible clusters (0.48%)
+Total clusters visible: 18587
+Average clusters visible: 71
+Building PAS...
+Average clusters audible: 150
+visdatasize:14791  compressed from 20800
+writing d:\stargate-infinity\sgc.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading d:\stargate-infinity\sgc.bsp
+2147 faces
+75814 square feet [10917218.00 square inches]
+17 Displacements
+1214 Square Feet [174903.16 Square Inches]
+2147 patches before subdivision
+38475 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3911080, max 350
+transfer lists:  29.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes                611/8192         7332/98304    ( 7.5%) 
+brushsides            4250/65536       34000/524288   ( 6.5%) 
+planes                2858/65536       57160/1310720  ( 4.4%) 
+vertexes              3852/65536       46224/786432   ( 5.9%) 
+nodes                 1535/65536       49120/2097152  ( 2.3%) 
+texinfos               159/12288       11448/884736   ( 1.3%) 
+texdata                 36/2048         1152/65536    ( 1.8%) 
+dispinfos               17/0            2992/0        ( 0.0%) 
+disp_verts            1377/0           27540/0        ( 0.0%) 
+disp_tris             2176/0            4352/0        ( 0.0%) 
+disp_lmsamples        3220/0            3220/0        ( 0.0%) 
+faces                 2147/65536      120232/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1118/65536       62608/3670016  ( 1.7%) 
+leaves                1590/65536       50880/2097152  ( 2.4%) 
+leaffaces             2557/65536        5114/131072   ( 3.9%) 
+leafbrushes           1082/65536        2164/131072   ( 1.7%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            14543/512000      58172/2048000  ( 2.8%) 
+edges                 9001/256000      36004/1024000  ( 3.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             99/32768         990/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1575/65536        3150/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1082708/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14791/16777216 ( 0.1%) 
+entdata               [variable]       31315/393216   ( 8.0%) 
+LDR ambient table     1590/65536        6360/262144   ( 2.4%) 
+HDR ambient table     1590/65536        6360/262144   ( 2.4%) 
+LDR leaf ambient       931/65536       26068/1835008  ( 1.4%) 
+HDR leaf ambient      1590/65536       44520/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       87245/0        ( 0.0%) 
+physics               [variable]      242661/4194304  ( 5.8%) 
+physics terrain       [variable]        4249/1048576  ( 0.4%) 
+
+Level flags = 0
+
+Total triangle count: 5767
+Writing d:\stargate-infinity\sgc.bsp
+10 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading d:\stargate-infinity\sgc.bsp
+2147 faces
+75814 square feet [10917218.00 square inches]
+17 Displacements
+1214 Square Feet [174903.16 Square Inches]
+2147 patches before subdivision
+38475 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3911080, max 350
+transfer lists:  29.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0162 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes                611/8192         7332/98304    ( 7.5%) 
+brushsides            4250/65536       34000/524288   ( 6.5%) 
+planes                2858/65536       57160/1310720  ( 4.4%) 
+vertexes              3852/65536       46224/786432   ( 5.9%) 
+nodes                 1535/65536       49120/2097152  ( 2.3%) 
+texinfos               159/12288       11448/884736   ( 1.3%) 
+texdata                 36/2048         1152/65536    ( 1.8%) 
+dispinfos               17/0            2992/0        ( 0.0%) 
+disp_verts            1377/0           27540/0        ( 0.0%) 
+disp_tris             2176/0            4352/0        ( 0.0%) 
+disp_lmsamples        3220/0            3220/0        ( 0.0%) 
+faces                 2147/65536      120232/3670016  ( 3.3%) 
+hdr faces             2147/65536      120232/3670016  ( 3.3%) 
+origfaces             1118/65536       62608/3670016  ( 1.7%) 
+leaves                1590/65536       50880/2097152  ( 2.4%) 
+leaffaces             2557/65536        5114/131072   ( 3.9%) 
+leafbrushes           1082/65536        2164/131072   ( 1.7%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            14543/512000      58172/2048000  ( 2.8%) 
+edges                 9001/256000      36004/1024000  ( 3.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             99/32768         990/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1575/65536        3150/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1082708/0        ( 0.0%) 
+HDR lightdata         [variable]     1082708/0        ( 0.0%) 
+visdata               [variable]       14791/16777216 ( 0.1%) 
+entdata               [variable]       31315/393216   ( 8.0%) 
+LDR ambient table     1590/65536        6360/262144   ( 2.4%) 
+HDR ambient table     1590/65536        6360/262144   ( 2.4%) 
+LDR leaf ambient       931/65536       26068/1835008  ( 1.4%) 
+HDR leaf ambient       931/65536       26068/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       87245/0        ( 0.0%) 
+physics               [variable]      242661/4194304  ( 5.8%) 
+physics terrain       [variable]        4249/1048576  ( 0.4%) 
+
+Level flags = 0
+
+Total triangle count: 5767
+Writing d:\stargate-infinity\sgc.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\stargate_infinity\materials
+Loading d:\stargate-infinity\sgc.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 singleplayer\stargate_infinity\gameinfo.txt
+Patching WVT material: maps/sgc/nature/blenddirtgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\stargate-infinity\sgc.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/stargate*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/stargate*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (244165 bytes)
+Error! prop_static using model "models/props_wasteland/cafeteria_table001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/cafeteria_table001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 636 texinfos to 176
+Reduced 51 texdatas to 49 (1500 bytes to 1447)
+Writing d:\stargate-infinity\sgc.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\stargate-infinity\sgc.bsp
+reading d:\stargate-infinity\sgc.prt
+ 230 portalclusters
+ 558 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 87 visible clusters (0.52%)
+Total clusters visible: 16849
+Average clusters visible: 73
+Building PAS...
+Average clusters audible: 154
+visdatasize:13379  compressed from 14720
+writing d:\stargate-infinity\sgc.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading d:\stargate-infinity\sgc.bsp
+2145 faces
+75627 square feet [10890300.00 square inches]
+17 Displacements
+1214 Square Feet [174903.16 Square Inches]
+2145 patches before subdivision
+38417 patches after subdivision
+241 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3638742, max 323
+transfer lists:  27.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42484, 26130, 12354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5811, 3055, 1227)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(793, 359, 119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(110, 43, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(15, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0158 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes                611/8192         7332/98304    ( 7.5%) 
+brushsides            4246/65536       33968/524288   ( 6.5%) 
+planes                2850/65536       57000/1310720  ( 4.3%) 
+vertexes              3833/65536       45996/786432   ( 5.8%) 
+nodes                 1494/65536       47808/2097152  ( 2.3%) 
+texinfos               176/12288       12672/884736   ( 1.4%) 
+texdata                 49/2048         1568/65536    ( 2.4%) 
+dispinfos               17/0            2992/0        ( 0.0%) 
+disp_verts            1377/0           27540/0        ( 0.0%) 
+disp_tris             2176/0            4352/0        ( 0.0%) 
+disp_lmsamples        3220/0            3220/0        ( 0.0%) 
+faces                 2145/65536      120120/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1141/65536       63896/3670016  ( 1.7%) 
+leaves                1549/65536       49568/2097152  ( 2.4%) 
+leaffaces             2591/65536        5182/131072   ( 4.0%) 
+leafbrushes           1059/65536        2118/131072   ( 1.6%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            14607/512000      58428/2048000  ( 2.9%) 
+edges                 9049/256000      36196/1024000  ( 3.5%) 
+LDR worldlights        241/8192        21208/720896   ( 2.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             86/32768         860/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1419/65536        2838/131072   ( 2.2%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               129/512         45408/180224   (25.2%) 
+LDR lightdata         [variable]     1913764/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13379/16777216 ( 0.1%) 
+entdata               [variable]      187424/393216   (47.7%) 
+LDR ambient table     1549/65536        6196/262144   ( 2.4%) 
+HDR ambient table     1549/65536        6196/262144   ( 2.4%) 
+LDR leaf ambient      3523/65536       98644/1835008  ( 5.4%) 
+HDR leaf ambient      1549/65536       43372/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/34088    ( 0.0%) 
+pakfile               [variable]     2172483/0        ( 0.0%) 
+physics               [variable]      244165/4194304  ( 5.8%) 
+physics terrain       [variable]        4249/1048576  ( 0.4%) 
+
+Level flags = 0
+
+Total triangle count: 5742
+Writing d:\stargate-infinity\sgc.bsp
+20 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\stargate_infinity\materials
+Loading d:\stargate-infinity\sgc.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 singleplayer\stargate_infinity\gameinfo.txt
+Patching WVT material: maps/sgc/nature/blenddirtgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 66 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\stargate-infinity\sgc.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/stargate*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/stargate*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (257849 bytes)
+Error! prop_static using model "models/props_wasteland/cafeteria_table001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/cafeteria_table001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 671 texinfos to 178
+Reduced 54 texdatas to 51 (1554 bytes to 1479)
+Writing d:\stargate-infinity\sgc.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\stargate-infinity\sgc.bsp
+reading d:\stargate-infinity\sgc.prt
+ 378 portalclusters
+1089 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 136 visible clusters (0.26%)
+Total clusters visible: 52022
+Average clusters visible: 137
+Building PAS...
+Average clusters audible: 248
+visdatasize:31083  compressed from 36288
+writing d:\stargate-infinity\sgc.bsp
+27 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading d:\stargate-infinity\sgc.bsp
+2188 faces
+75620 square feet [10889356.00 square inches]
+17 Displacements
+1214 Square Feet [174903.16 Square Inches]
+2188 patches before subdivision
+38890 patches after subdivision
+241 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3317584, max 331
+transfer lists:  25.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(38923, 23883, 10489)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4790, 2520, 947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(604, 275, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(78, 31, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(10, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  54/1024         2592/49152    ( 5.3%) 
+brushes                763/8192         9156/98304    ( 9.3%) 
+brushsides            5272/65536       42176/524288   ( 8.0%) 
+planes                3212/65536       64240/1310720  ( 4.9%) 
+vertexes              4273/65536       51276/786432   ( 6.5%) 
+nodes                 1640/65536       52480/2097152  ( 2.5%) 
+texinfos               178/12288       12816/884736   ( 1.4%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos               17/0            2992/0        ( 0.0%) 
+disp_verts            1377/0           27540/0        ( 0.0%) 
+disp_tris             2176/0            4352/0        ( 0.0%) 
+disp_lmsamples        3220/0            3220/0        ( 0.0%) 
+faces                 2188/65536      122528/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1138/65536       63728/3670016  ( 1.7%) 
+leaves                1695/65536       54240/2097152  ( 2.6%) 
+leaffaces             2713/65536        5426/131072   ( 4.1%) 
+leafbrushes           1471/65536        2942/131072   ( 2.2%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            14912/512000      59648/2048000  ( 2.9%) 
+edges                 9298/256000      37192/1024000  ( 3.6%) 
+LDR worldlights        241/8192        21208/720896   ( 2.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            122/32768        1220/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2055/65536        4110/131072   ( 3.1%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               129/512         45408/180224   (25.2%) 
+LDR lightdata         [variable]     1885408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       31083/16777216 ( 0.2%) 
+entdata               [variable]      187424/393216   (47.7%) 
+LDR ambient table     1695/65536        6780/262144   ( 2.6%) 
+HDR ambient table     1695/65536        6780/262144   ( 2.6%) 
+LDR leaf ambient      4379/65536      122612/1835008  ( 6.7%) 
+HDR leaf ambient      1695/65536       47460/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/34420    ( 0.0%) 
+pakfile               [variable]     2172483/0        ( 0.0%) 
+physics               [variable]      257849/4194304  ( 6.1%) 
+physics terrain       [variable]        4249/1048576  ( 0.4%) 
+
+Level flags = 0
+
+Total triangle count: 5971
+Writing d:\stargate-infinity\sgc.bsp
+20 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\stargate_infinity\materials
+Loading d:\stargate-infinity\sgc.vmf
+material "majorc4/sgc/concretefloor_sgc" not found.
+Material not found!: MAJORC4/SGC/CONCRETEFLOOR_SGC
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 singleplayer\stargate_infinity\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-86.14 145.03 9.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 256.0 -72.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 768.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 512.0 136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (512.0 1024.0 96.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 512.0 96.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -256.0 -72.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -768.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -512.0 136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (953 bytes)
+Static prop models/sgc/props/ramp03.mdl outside the map (-256.00, 64.00, 9.00)
+Static prop models/sgc/props/ramp02.mdl outside the map (-257.00, 203.00, 40.00)
+Static prop models/sgc/props/rails01b.mdl outside the map (-257.00, 124.00, 4.00)
+Static prop models/sgc/props/rails01a.mdl outside the map (-255.00, 124.00, 4.00)
+Static prop models/sgc/props/rail1b.mdl outside the map (-279.00, 242.00, 9.00)
+Static prop models/sgc/props/ramp02.mdl outside the map (-259.00, 282.00, 40.00)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 5 texinfos to 5
+Reduced 1 texdatas to 1 (30 bytes to 30)
+Writing d:\stargate-infinity\sgc.bsp
+1 second elapsed
+
+
+
+4 threads
+reading d:\stargate-infinity\sgc.bsp
+reading d:\stargate-infinity\sgc.prt
+LoadPortals: couldn't read d:\stargate-infinity\sgc.prt
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading d:\stargate-infinity\sgc.bsp
+No vis information, direct lighting only.
+16 faces
+11946 square feet [1720320.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  2/8192           24/98304    ( 0.0%) 
+brushsides              12/65536          96/524288   ( 0.0%) 
+planes                  30/65536         600/1310720  ( 0.0%) 
+vertexes                22/65536         264/786432   ( 0.0%) 
+nodes                   31/65536         992/2097152  ( 0.0%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  1/2048           32/65536    ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   16/65536         896/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               10/65536         560/3670016  ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               16/65536          32/131072   ( 0.0%) 
+leafbrushes              4/65536           8/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              106/512000        424/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         234/393216   ( 0.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105643/0        ( 0.0%) 
+physics               [variable]         953/4194304  ( 0.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 34
+Writing d:\stargate-infinity\sgc.bsp
+0 seconds elapsed
